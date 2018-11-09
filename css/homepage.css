@@ -1,0 +1,212 @@
+body
+{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+div{width: 100%;}
+/*margin: 10px 50px;*/
+.Top
+{
+  text-align: center;
+}
+.Top img{
+  /*border:1px solid black;*/
+  width: 99%;
+  max-width: 1000px;
+  max-height: 100px;
+}
+.Top img:HOVER
+{
+  width: 100%;
+  max-width: 1010px;
+  max-height: 101px;
+}
+
+.SubTitle {
+  vertical-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #555;
+}
+#About
+{
+  /*border:1px solid black;*/
+  /*width:75%;*/
+  padding: 10px;
+  /*max-width: 720px;*/
+}
+/*body
+{margin: 10px;}*/
+#PersonalPicName
+{
+  /*border: 2px solid red;*/
+  /*margin: 10px 30px 5px 5px;*/
+}
+#pic
+{
+width: 100%; 
+max-width: 150px;
+height: 80%;
+background-image: white url("./images/LyuYe.jpg") no-repeat;
+}
+#pic HOVER
+{
+width: 100%; 
+max-width: 150px;
+height: 80%;
+background-image: white url("./images/mrFrog.jpg") no-repeat;
+}
+#name
+{
+  /*border: 1px solid red;*/
+  width: 100%; 
+  max-width: 150px;
+  height: 20%;
+  text-align: center;
+}
+.subItemImages
+{
+  max-width: 100%;
+}
+#Projects
+{
+  /*border:1px solid black;*/
+}
+#projItems
+{
+  /*border:1px solid black;*/
+  /*margin: 0px 80px;*/
+  /*height: 100%;*/
+}
+
+.personalImg
+{
+  /*height: auto;*/
+  width: 100%;
+  border-radius: 50%;
+  border-color: white;
+}
+.floatHSpace
+{
+  width: 20px;
+  border: 2px solid red;
+}
+.floatLeft
+{
+  float:left;
+}
+.clearDiv
+{
+  clear:both;
+}
+#header {
+  max-width: 1170px;
+  width: 100%;
+  height: 300px;
+  font-weight: 300;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+#Footer
+{
+  
+}
+
+#Icons
+{
+ text-align: center;
+}
+.icon-image {
+  height: 80px;
+  max-width: 100%;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+hr {
+  border-top: 1px solid #CCC;
+  padding: 0px;
+}
+
+.bg {
+  background-image: url('../resources/stanford_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+}
+
+#header-inner {
+  padding-top: 100px;
+  padding-left: 50px;
+}
+.img-me {
+  border: 8px solid white;
+  float: left;
+  width: 200px;
+}
+.header-text {
+  margin-top: 80px;
+  margin-left: 250px;
+}
+.header-text-name {
+  font-weight: bold;
+  font-size: 40px;
+}
+.header-text-email {
+  font-size: 20px;
+  font-style: italic;
+}
+.header-text-desc {
+  font-size: 20px;
+}
+#contact-info {
+  position: absolute;
+  left: 80%;
+  width: 20%;
+  top: 360px;
+  height: 100px;
+  background-color: #EEE;
+}
+.vspace {
+  margin-bottom: 20px;
+}
+.vspace-top {
+  margin-top: 30px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+.paper-image {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.logo-div {
+  margin-bottom: 20px;
+}
+
+.paper-title {
+  font-weight: bold;
+}
+.paper-authors {
+  font-style: italic;
+}
+.paper-link {
+}
+
+.section-light {
+  background-color: #EEE;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+.about {
+  margin-bottom: 10px;
+}
