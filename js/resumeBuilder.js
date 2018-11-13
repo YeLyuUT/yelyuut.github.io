@@ -19,7 +19,7 @@ var GV = linkTemplate.replace('%link%',linkGV).replace('%text%', 'G. Vosselman')
 var MY = linkTemplate.replace('%link%',linkMY).replace('%text%', 'Michael Ying Yang');
 var About_Content='<p>'+"I am a Ph.D. candidate in the "+group+" at "+ITC+",supervised by "+GV+" and "+MY+"."+'</p>'+
 '<p>'+"I've been working on project of Scene Understanding from Very High Resolution UAV Images."+'</p>'+
-'<p>'+"My research interest is about object detection, semantic segmenation, instance segmenation and video object segmentaion"+'</p>';
+'<p>'+"My research interest is about object detection, semantic segmenation, instance segmenation and video object segmentaion."+'</p>';
 $('#about').append(About_Content)
 /*************************************************
 				Publication
@@ -33,7 +33,7 @@ var publication_UAVid =
 	LvPublicationTitle.replace('%data%','Title: The UAVid Dataset for Video Semantic Segmentation'),
 	LvPublicationAuthors.replace('%data%','Ye Lyu, George Vosselman, Guisong Xia, Alper Yilmaz, Michael Ying Yang'),
 	LvPublicationJournalName.replace('%data%','Preprints'),
-	LvPublicationLinks.replace('%data%','<a href="https://arxiv.org/pdf/1810.10438.pdf">[pdf]</a>'+'<a href="#">[project page]</a>'),
+	LvPublicationLinks.replace('%data%','<a href="https://arxiv.org/pdf/1810.10438.pdf" target="_blank">[pdf]</a>'+'<a href="#" target="_blank">[project page]</a>'),
 	LvPublicationImage.replace("%data%",'./images/pub_UAVid/eg.jpg'),
 ];
 addPublication(publication_UAVid,PublicationTBID);
