@@ -44,20 +44,22 @@ div{width: 100%;}
   /*border: 2px solid red;*/
   /*margin: 10px 30px 5px 5px;*/
 }
+/*
 #pic
 {
 width: 100%; 
 max-width: 150px;
 height: 80%;
-background-image: white url("./images/LyuYe.jpg") no-repeat;
+background-image: white url("./images/LyuYe.png") no-repeat;
 }
 #pic HOVER
 {
 width: 100%; 
 max-width: 150px;
 height: 80%;
-background-image: white url("./images/mrFrog.jpg") no-repeat;
+background-image: white url("./images/YeLyu.jpg") no-repeat;
 }
+*/
 #name
 {
   /*border: 1px solid red;*/
@@ -83,11 +85,19 @@ background-image: white url("./images/mrFrog.jpg") no-repeat;
 
 .personalImg
 {
-  /*height: auto;*/
-  width: 100%;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border-color: white;
 }
+
+.personalImg:HOVER
+{
+  height: 180px;
+  width: 180px;
+}
+
+
 .floatHSpace
 {
   width: 20px;

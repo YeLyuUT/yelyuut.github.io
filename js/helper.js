@@ -13,13 +13,13 @@ var LvPublicationTitle = '<h3 class="publication-title"> %data% </h3>';
 var LvPublicationAuthors = '<p class="authors"> %data% </p>';
 var LvPublicationJournalName = '<p class="journal-name"> %data% </p>';
 var LvPublicationLinks = ' %data% ';
-var LvPublicationImage = '<img class="subItemImages" src= %data% alt="PublicationPic">';
+var LvPublicationImage = '<img class="subItemImages" src= %data% alt="PublicationPic" height="180" width="400">';
 
 var LvProjectStart = '<div width="100%" class="project-entry"><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody id= %data% ></tbody></table></div>';
 var LvProjectTitle = '<a href="#">%data%</a>';
 var LvProjectDates = '<div class="date-text">%data%</div>';
-var LvProjectDescription = '<p><br>%data%</p>';
-var LvProjectImage = '<img class="subItemImages" src="%data%" alt="ProjectPic">';
+var LvProjectDescription = '<p>%data%</p>';
+var LvProjectImage = '<img class="subItemImages" src="%data%" alt="ProjectPic" >';
 
 var LvSchoolStart = '<div class="education-entry">%data%</div>';
 var LvSschoolName = '<a href="#">%data%';
@@ -28,17 +28,21 @@ var LvSchoolDates = '<div class="date-text">%data%</div>';
 var LvSchoolLocation = '<div class="location-text">%data%</div>';
 var LvSchoolMajor = '<em><br>Major: %data%</em>';
 
+function addPublication(items,id_Str)
+{
+  var table = '<tr width="100%"><td align="center" valign="top" width="45%">'+items[4]+'</td><td width="5%"></td><td align="center" valign="top" width="50%" >'+items[0]+items[1]+items[2]+items[3]+'</td></tr>';
+  $('#'+id_Str).append(table);
+}
+
+
+
 function addProject(idx,items,id_Str)
 {
   var table = '<tr width="100%"><td width="5%">'+idx+'</td><td align="center" width="45%" >'+items[0]+items[1]+items[2]+'</td><td width="50%">'+items[3]+'</td></tr>';
   $('#'+id_Str).append(table);
 }
 
-function addPublication(items,id_Str)
-{
-  var table = '<tr width="100%"><td width="5%"></td><td align="center" width="45%">'+items[4]+'</td><td width="50%" >'+items[0]+items[1]+items[2]+items[3]+'</td></tr>';
-  $('#'+id_Str).append(table);
-}
+
 
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span>%data%</span><hr>';

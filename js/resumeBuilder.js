@@ -6,7 +6,7 @@ var linkOfITC = 'https://www.itc.nl/';
 var linkMY = 'https://sites.google.com/site/michaelyingyang/home';
 var linkGV = 'https://www.itc.nl/personal/vosselman/';
 var linkSUG = 'https://sites.google.com/site/michaelyingyang/group';
-var personalImg = './images/LyuYe.jpg';
+var personalImg = './images/LyuYe.png';
 $('#pic').append('<img class="personalImg" src=%data% alt="PersonalPic">'.replace('%data%',personalImg));
 $('#name').append('<p>Ye LYU</p>');
 /*************************************************
@@ -17,8 +17,9 @@ var group = linkTemplate.replace('%link%',linkSUG).replace('%text%', 'Scene Unde
 var ITC = linkTemplate.replace('%link%',linkOfITC).replace('%text%', 'ITC');
 var GV = linkTemplate.replace('%link%',linkGV).replace('%text%', 'G. Vosselman');
 var MY = linkTemplate.replace('%link%',linkMY).replace('%text%', 'Michael Ying Yang');
-var About_Content='<p>'+"I am a PhD student in the "+group+" at "+ITC+",supervised by "+GV+" and "+MY+"."+'</p>'+
-'<p>'+"I've been working on prject of Scene Understanding from Very High Resolution Images."+'</p>';
+var About_Content='<p>'+"I am a Ph.D. candidate in the "+group+" at "+ITC+",supervised by "+GV+" and "+MY+"."+'</p>'+
+'<p>'+"I've been working on project of Scene Understanding from Very High Resolution UAV Images."+'</p>'+
+'<p>'+"My research interest is about object detection, semantic segmenation, instance segmenation and video object segmentaion"+'</p>';
 $('#about').append(About_Content)
 /*************************************************
 				Publication
@@ -27,15 +28,15 @@ $('#about').append(About_Content)
 /***************Publication**********************/
 var PublicationTBID = 'ID_PublicationTB';
 $("#publicationItems").append(LvProjectStart.replace('%data%',PublicationTBID));
-var publication_data =
+var publication_UAVid =
 [
-	LvPublicationTitle.replace('%data%','Title'),
-	LvPublicationAuthors.replace('%data%','Ye LYU'),
-	LvPublicationJournalName.replace('%data%','ISPRS'),
-	LvPublicationLinks.replace('%data%','<a href="#">[pdf]</a>'+'<a href="#">[code]</a>'),
-	LvPublicationImage.replace("%data%",'#'),
+	LvPublicationTitle.replace('%data%','Title: The UAVid Dataset for Video Semantic Segmentation'),
+	LvPublicationAuthors.replace('%data%','Ye Lyu, George Vosselman, Guisong Xia, Alper Yilmaz, Michael Ying Yang'),
+	LvPublicationJournalName.replace('%data%','Preprints'),
+	LvPublicationLinks.replace('%data%','<a href="https://arxiv.org/pdf/1810.10438.pdf">[pdf]</a>'+'<a href="#">[project page]</a>'),
+	LvPublicationImage.replace("%data%",'./images/pub_UAVid/eg.jpg'),
 ];
-addPublication(publication_data,PublicationTBID);
+addPublication(publication_UAVid,PublicationTBID);
 /****************Projection***********************/
 var ProjTBID = 'ID_ProjTB';
 $("#projItems").append(LvProjectStart.replace('%data%',ProjTBID));
@@ -43,9 +44,9 @@ console.log(LvProjectStart.replace('%data%',ProjTBID));
 var project1_data =
 [
 	LvProjectTitle.replace("%data%","Scene Understanding in VHR UAV Images"),
-	LvProjectDates.replace("%data%","2017/08/01"),
-	LvProjectDescription.replace("%data%","Proj1Content"),
-	LvProjectImage.replace('%data%',"proj1.jpg"),
+	LvProjectDates.replace("%data%","2017/08/01 till now"),
+	LvProjectDescription.replace("%data%","My research interest is about semantic segmentation, instance segmentation, detection and tracking."),
+	LvProjectImage.replace('%data%',"./images/proj_uav/projpic.jpg"),
 ];
 addProject('(1)',project1_data,ProjTBID);
 // console.log('#'+ID_Proj1);
@@ -58,6 +59,10 @@ $('#News').append(LvNewsContent.replace('%data%',ID_News_Content));
 /*add items*/
 var News1_Content='2017/06 I have been admitted by UTwente ITC!';
 $('#'+ID_News_Content).append(LvSubContent.replace('%data%',News1_Content));
+var News2_Content='2018/04 I have passed the ph.d. qualifier!';
+$('#'+ID_News_Content).append(LvSubContent.replace('%data%',News2_Content));
+var News3_Content='2018/09 I have submitted a paper to ICRA!';
+$('#'+ID_News_Content).append(LvSubContent.replace('%data%',News3_Content));
 
 /*************************************************
 				Footer Edit
