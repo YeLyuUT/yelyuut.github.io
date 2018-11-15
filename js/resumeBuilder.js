@@ -7,7 +7,7 @@ var linkMY = 'https://sites.google.com/site/michaelyingyang/home';
 var linkGV = 'https://www.itc.nl/personal/vosselman/';
 var linkSUG = 'https://sites.google.com/site/michaelyingyang/group';
 var personalImg = './images/LyuYe.png';
-$('#pic').append('<img class="personalImg" src=%data% alt="PersonalPic">'.replace('%data%',personalImg));
+$('#pic').append('<a href="./easter_egg/style_transfer/style_transfer.html" target="_self"><img class="personalImg" src=%data% alt="PersonalPic"></a>'.replace('%data%',personalImg));
 $('#name').append('<p>Ye LYU</p>');
 /*************************************************
 			Personal Info Edit
