@@ -61,8 +61,6 @@ var News1_Content='2017/06 I have been admitted by UTwente ITC!';
 $('#'+ID_News_Content).append(LvSubContent.replace('%data%',News1_Content));
 var News2_Content='2018/04 I have passed the ph.d. qualifier!';
 $('#'+ID_News_Content).append(LvSubContent.replace('%data%',News2_Content));
-var News3_Content='2018/09 I have submitted a paper to ICRA!';
-$('#'+ID_News_Content).append(LvSubContent.replace('%data%',News3_Content));
 
 /*************************************************
 				Footer Edit
