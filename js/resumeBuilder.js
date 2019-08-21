@@ -59,8 +59,10 @@ $('#News').append(LvNewsContent.replace('%data%',ID_News_Content));
 /*add items*/
 var News1_Content='2017/06 I have been admitted by UTwente ITC!';
 $('#'+ID_News_Content).append(LvSubContent.replace('%data%',News1_Content));
-var News2_Content='2018/04 I have passed the ph.d. qualifier!';
+var News2_Content='2018/04 I have passed the ph.D. qualifier!';
 $('#'+ID_News_Content).append(LvSubContent.replace('%data%',News2_Content));
+var News3_Content='2019/08 Our UAVid project website is online!  <a href="https://uavid.nl">project website</a> ';
+$('#'+ID_News_Content).append(LvSubContent.replace('%data%',News3_Content));
 
 /*************************************************
 				Footer Edit
