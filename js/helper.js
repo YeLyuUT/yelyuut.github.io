@@ -13,7 +13,7 @@ var LvPublicationTitle = '<h3 class="publication-title"> %data% </h3>';
 var LvPublicationAuthors = '<p class="authors"> %data% </p>';
 var LvPublicationJournalName = '<p class="journal-name"> %data% </p>';
 var LvPublicationLinks = ' %data% ';
-var LvPublicationImage = '<img class="subItemImages" src= %data% alt="PublicationPic" height="180" width="400">';
+var LvPublicationImage = '<img class="subItemImages" src= %data% alt="PublicationPic" height="180" width="480">';
 
 var LvProjectStart = '<div width="100%" class="project-entry"><table width="100%" border="0" cellpadding="0" cellspacing="0"><tbody id= %data% ></tbody></table></div>';
 var LvProjectTitle = '<a href="#">%data%</a>';
@@ -30,7 +30,7 @@ var LvSchoolMajor = '<em><br>Major: %data%</em>';
 
 function addPublication(items,id_Str)
 {
-  var table = '<tr width="100%"><td align="center" valign="top" width="45%">'+items[4]+'</td><td width="5%"></td><td align="center" valign="top" width="50%" >'+items[0]+items[1]+items[2]+items[3]+'</td></tr>';
+  var table = '<tr width="100%"><td align="center" valign="center" width="45%">'+items[4]+'</td><td width="5%"></td><td align="center" valign="center" width="50%">'+items[0]+items[1]+items[2]+items[3]+'</td></tr>';
   $('#'+id_Str).append(table);
 }
 
