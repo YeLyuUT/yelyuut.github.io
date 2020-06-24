@@ -34,10 +34,12 @@ var publication_UAVid =
 	LvPublicationTitle.replace('%data%','UAVid: A semantic segmentation dataset for UAV imagery'),
 	LvPublicationAuthors.replace('%data%','Ye Lyu, George Vosselman, Gui-Song Xia, Michael Ying Yang'),
 	LvPublicationJournalName.replace('%data%','ISPRS Journal'),
-	LvPublicationLinks.replace('%data%','<a href="https://arxiv.org/pdf/1810.10438.pdf" target="_blank">[Arxiv]</a>'
+	LvPublicationLinks.replace('%data%',
+	'<a href="https://arxiv.org/pdf/1810.10438.pdf" target="_blank">[Arxiv]</a>'
 	+'<a href="https://www.sciencedirect.com/science/article/pii/S0924271620301295" target="_blank">[Journal]</a>'
-	+'<a href="https://www.youtube.com/watch?v=iCdr-L19Slc" target="_blank">[video]</a>')
-	+'<a href="https://uavid.nl" target="_blank">[project page]</a>',
+	+'<a href="https://www.youtube.com/watch?v=iCdr-L19Slc" target="_blank">[video]</a>'
+	+'<a href="https://github.com/YeLyuUT/MSDNet" target="_blank">[project page]</a>'
+	+'<a href="https://uavid.nl" target="_blank">[UAVid website]</a>'),
 	LvPublicationImage.replace("%data%",'./images/pub_UAVid/eg.jpg'),
 ];
 var publication_LIP =
