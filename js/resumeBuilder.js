@@ -9,7 +9,7 @@ var linkGV = 'https://www.itc.nl/personal/vosselman/';
 var linkSUG = 'https://sites.google.com/site/michaelyingyang/group';
 var personalImg = './images/LyuYe.png';
 $('#pic').append('<a href="./easter_egg/style_transfer/style_transfer.html" target="_self"><img class="personalImg" src=%data% alt="PersonalPic"></a>'.replace('%data%',personalImg));
-$('#name').append('<p>Ye LYU</p>');
+$('#name').append('<p><b>Click &uarr; Pic!!! </b></p><p>Ye LYU</p>');
 /*************************************************
 			Personal Info Edit
 *************************************************/
@@ -57,7 +57,8 @@ var publication_VOD_TRACK =
 	LvPublicationTitle.replace('%data%','Plug & Play Convolutional Regression Tracker for Video Object Detection'),
 	LvPublicationAuthors.replace('%data%','Ye Lyu, Michael Ying Yang, George Vosselman, Gui-Song Xia'),
 	LvPublicationJournalName.replace('%data%','Preprint'),
-	LvPublicationLinks.replace('%data%','<a href="https://arxiv.org/pdf/2003.00981.pdf" target="_blank">[Arxiv]</a>'),
+	LvPublicationLinks.replace('%data%','<a href="https://arxiv.org/pdf/2003.00981.pdf" target="_blank">[Arxiv]</a>'
+	+'<a href="https://youtu.be/aItstqQUzHw" target="_blank">[video]</a>'),
 	//+'<a href="#" target="_blank">[video]</a>'),
 	//+'<a href="#" target="_blank">[project page]</a>',
 	LvPublicationImage.replace("%data%",'./images/pub_VOD_TRACK/eg.png'),
