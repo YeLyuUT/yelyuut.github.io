@@ -63,9 +63,33 @@ var publication_VOD_TRACK =
 	//+'<a href="#" target="_blank">[project page]</a>',
 	LvPublicationImage.replace("%data%",'./images/pub_VOD_TRACK/eg.png'),
 ];
+
+var publication_MOTS =
+[
+	LvPublicationTitle.replace('%data%','Joint Top-down and Bottom-up Inference for Multi-Object Tracking and Segmentation'),
+	LvPublicationAuthors.replace('%data%','Ye Lyu, George Vosselman, Gui-Song Xia, Michael Ying Yang'),
+	LvPublicationJournalName.replace('%data%','Preprint'),
+	LvPublicationLinks.replace('%data%','<a href="#" target="_blank">[Arxiv]</a>'
+	+'<a href="https://www.youtube.com/watch?v=jjNRs7MzzX8" target="_blank">[video]</a>'),
+	//+'<a href="#" target="_blank">[project page]</a>',
+	LvPublicationImage.replace("%data%",'./images/pub_MOTS/mots_eg.jpg'),
+];
+
+var publication_UAVid_BiMSAN =
+[
+	LvPublicationTitle.replace('%data%','Bidirectional Multi-scale Attention Networks for Semantic Segmentation of Oblique UAV Imagery'),
+	LvPublicationAuthors.replace('%data%','Ye Lyu, George Vosselman, Gui-Song Xia, Michael Ying Yang'),
+	LvPublicationJournalName.replace('%data%','Preprint'),
+	LvPublicationLinks.replace('%data%','<a href="https://arxiv.org/abs/2102.03099" target="_blank">[Arxiv]</a>'),
+	//+'<a href="#" target="_blank">[video]</a>'),
+	//+'<a href="#" target="_blank">[project page]</a>',
+	LvPublicationImage.replace("%data%",'./images/pub_BiMSAN/example.jpg'),
+];
 addPublication(publication_UAVid,PublicationTBID);
 addPublication(publication_LIP,PublicationTBID);
 addPublication(publication_VOD_TRACK,PublicationTBID);
+addPublication(publication_MOTS,PublicationTBID);
+addPublication(publication_UAVid_BiMSAN,PublicationTBID);
 /****************Projection***********************/
 var ProjTBID = 'ID_ProjTB';
 $("#projItems").append(LvProjectStart.replace('%data%',ProjTBID));
@@ -92,6 +116,8 @@ var News2_Content='2018/04 I have passed the ph.D. qualifier!';
 $('#'+ID_News_Content).append(LvSubContent.replace('%data%',News2_Content));
 var News3_Content='2019/08 Our UAVid project website is online!  <a target="_blank" href="https://uavid.nl">[link]</a> ';
 $('#'+ID_News_Content).append(LvSubContent.replace('%data%',News3_Content));
+var News4_Content='2020/05 Our UAVid2020 benchmark is published on Codalab!  <a target="_blank" href="https://competitions.codalab.org/competitions/25224">[link]</a> ';
+$('#'+ID_News_Content).append(LvSubContent.replace('%data%',News4_Content));
 
 /*************************************************
 				Footer Edit
