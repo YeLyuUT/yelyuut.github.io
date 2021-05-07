@@ -56,8 +56,9 @@ var publication_VOD_TRACK =
 [
 	LvPublicationTitle.replace('%data%','Plug & Play Convolutional Regression Tracker for Video Object Detection'),
 	LvPublicationAuthors.replace('%data%','Ye Lyu, Michael Ying Yang, George Vosselman, Gui-Song Xia'),
-	LvPublicationJournalName.replace('%data%','Preprint'),
+	LvPublicationJournalName.replace('%data%','ISPRS Journal'),
 	LvPublicationLinks.replace('%data%','<a href="https://arxiv.org/pdf/2003.00981.pdf" target="_blank">[Arxiv]</a>'
+	+'<a href="https://www.sciencedirect.com/science/article/pii/S092427162100099X" target="_blank">[Journal]</a>'
 	+'<a href="https://youtu.be/aItstqQUzHw" target="_blank">[video]</a>'),
 	//+'<a href="#" target="_blank">[video]</a>'),
 	//+'<a href="#" target="_blank">[project page]</a>',
@@ -79,7 +80,7 @@ var publication_UAVid_BiMSAN =
 [
 	LvPublicationTitle.replace('%data%','Bidirectional Multi-scale Attention Networks for Semantic Segmentation of Oblique UAV Imagery'),
 	LvPublicationAuthors.replace('%data%','Ye Lyu, George Vosselman, Gui-Song Xia, Michael Ying Yang'),
-	LvPublicationJournalName.replace('%data%','Preprint'),
+	LvPublicationJournalName.replace('%data%','ISPRS Congress'),
 	LvPublicationLinks.replace('%data%','<a href="https://arxiv.org/abs/2102.03099" target="_blank">[Arxiv]</a>'),
 	//+'<a href="#" target="_blank">[video]</a>'),
 	//+'<a href="#" target="_blank">[project page]</a>',
