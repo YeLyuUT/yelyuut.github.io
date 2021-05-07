@@ -70,7 +70,7 @@ var publication_MOTS =
 	LvPublicationTitle.replace('%data%','Joint Top-down and Bottom-up Inference for Multi-Object Tracking and Segmentation'),
 	LvPublicationAuthors.replace('%data%','Ye Lyu, George Vosselman, Gui-Song Xia, Michael Ying Yang'),
 	LvPublicationJournalName.replace('%data%','Preprint'),
-	LvPublicationLinks.replace('%data%','<a href="#" target="_blank">[Arxiv]</a>'
+	LvPublicationLinks.replace('%data%','<a href="https://drive.google.com/file/d/1AvKGmgxU2X7su4ADhLeuI0eQPM9hQPyy/view?usp=sharing" target="_blank">[Manuscript]</a>'
 	+'<a href="https://www.youtube.com/watch?v=jjNRs7MzzX8" target="_blank">[video]</a>'),
 	//+'<a href="#" target="_blank">[project page]</a>',
 	LvPublicationImage.replace("%data%",'./images/pub_MOTS/mots_eg.jpg'),
